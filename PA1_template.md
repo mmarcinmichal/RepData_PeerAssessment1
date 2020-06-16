@@ -231,4 +231,4 @@ ggplot(aggDf, aes(x = interval, y = steps)) +
   facet_grid(wwDays ~ .)
 ```
 
-![](PA1_template_files/figure-html/diff acti-1.png)<!-- -->
+![](PA1_template_files/figure-html/diff-acti-1.png)<!-- -->
