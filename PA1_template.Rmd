@@ -61,7 +61,7 @@ plot(aggByDayMedianDf$date, aggByDayMedianDf$steps, main = "The median of the to
 
 ## What is the average daily activity pattern?
 
-```{r mean daily, echo=TRUE}
+```{r mean-daily, echo=TRUE}
 # Make a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
 timeDf <- aggregate(steps ~ interval, dataWithoutNaDf, mean)
 

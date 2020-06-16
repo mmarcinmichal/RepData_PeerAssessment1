@@ -100,7 +100,7 @@ timeDf <- aggregate(steps ~ interval, dataWithoutNaDf, mean)
 plot(timeDf$interval, timeDf$steps, xlab = "5-minute interval", ylab = "Average number of steps", type = "l")
 ```
 
-![](PA1_template_files/figure-html/mean daily-1.png)<!-- -->
+![](PA1_template_files/figure-html/mean-daily-1.png)<!-- -->
 
 ```r
 # Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
